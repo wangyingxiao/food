@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<!--1、在html中指定文档的基础语言-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2、定义viewport-->
+    <meta name="viewport"
+          content="width=device-width,
+            initial-scale=1,user-scalable=no">
+    <!--3、指定跨（IE）浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible"
+          content="IE=edge">
+    <!--4、引入bootstrap-->
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <title>Bootstrap 起步</title>
+</head>
+<body>
+<!--1.头部-->
+<nav id="nav"  class="nav navbar navbar-default navbar-fixed-top">
+    <div class="container"></div>
+</nav>
+<!--2.面包屑导航-->
+<div>
+    <ol class="breadcrumb">
+        <li><a href="#">首页</a></li>
+        <li><a href="#">菜单料理</a></li>
+        <li class="active">中式菜品</li>
+    </ol>
+</div>
+<!--3.左图 右文字-->
+<div id="details-pic">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7">
+                <img src="images/thumb1.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-5">
+                <h2>鸡蛋汁煎鲱鱼</h2>
+                <p class="text">
+                    壹点壹作为台湾入驻大陆企业，在践行发扬“人本主义”——客户是一切的出发点的基础上，以健康美食、
+                    新鲜生活为导向，为消费者提供台湾各种潮流美食，秉承健康、平衡、时尚的台式饮食生活 理念，
+                    向国人展示天然、安全、健康的品牌形象，让台湾饮食文化在大陆绽放，不断推广台湾美食文化，
+                    以制造绿色食品，传播地道美味的宗旨，不断加强与祖国大陆餐饮行业交流合作。
+                    除了地道的口味之外，质量和安全也是壹点壹自诞生以来始终不变
+                </p>
+                <ul class="list-unstyled list-inline">
+                    <li>餐品名称 : 鸡蛋汁煎鲱鱼</li>
+                    <li>所属行业 : 特色西餐</li>
+                    <li>创业方式 : 加盟</li>
+                    <li>投资金额 : 10~15万</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--4.详细介绍-文字-->
+<div id="detailIntro">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-9 left">
+                <!-- 1.左侧-->
+                <h4>详细信息</h4>
+                <p>
+                    壹点壹作为台湾入驻大陆企业，在践行发扬“人本主义”——客户是一切的出发点的基础上，
+                    以健康美食、新鲜生活为导向，为消费者提供台湾各种潮流美食，秉承健康、平衡、
+                    时尚的台式饮食生活 理念，向国人展示天然、安全、健康的品牌形象，让台湾饮食文化在大陆绽放，
+                    不断推广台湾美食文化，以制造绿色食品，传播地道美味的宗旨，不断加强与祖国大陆餐饮行业交流合作。
+                    除了地道的口味之外，质量和安全也是壹点壹自诞生以来始终不变的追求，同时不断在大陆倡导台湾的生活
+                    方式进而搭建两岸在饮食文化的沟通桥梁。
+                </p>
+                <img src="images/thumb1.jpg" class="img-responsive" alt=""/>
+            </div>
+            <div class="col-md-2 right">
+                <!-- 2.右侧-->
+                    <h2 class="text-center">热门推荐</h2>
+                    <ul class="list-unstyled list-inline">
+                        <li>
+                            <a href="#"><img src="images/thumb2.jpg" class="img-responsive" alt=""/></a>
+                            <p class="text-center">鸡蛋汁鲤鱼</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/thumb2.jpg" class="img-responsive" alt=""/></a>
+                            <p class="text-center">鸡蛋汁鲤鱼</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/thumb2.jpg" class="img-responsive" alt=""/></a>
+                            <p class="text-center">鸡蛋汁鲤鱼</p>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/thumb2.jpg" class="img-responsive" alt=""/></a>
+                            <p class="text-center">鸡蛋汁鲤鱼</p>
+                        </li>
+                    </ul>
+            </div>
+        </div>
+
+
+
+    </div>
+</div>
+<!--5.底部-->
+<footer id="foot" class="container"></footer>
+
+
+<!--6、引入俩个行为依赖文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/detailsmenu.js"></script>
+<!--7、引入 测试文件：注意，正真上线时该代码铲除-->
+<script src="js/bootlint.js"></script>
+<!--<script>-->
+    <!--bootlint.showLintReportForCurrentDocument([]);-->
+<!--</script>-->
+</body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<!--1、在html中指定文档的基础语言-->
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <!--2、定义viewport-->
+    <meta name="viewport"
+          content="width=device-width,
+            initial-scale=1,user-scalable=no">
+    <!--3、指定跨（IE）浏览器兼容性-->
+    <meta http-equiv="x-ua-compatible"
+          content="IE=edge">
+    <!--4、引入bootstrap-->
+    <link rel="stylesheet" href="css/index.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
+    <script src="js/html5shiv.min.js"></script>
+    <script src="js/respond.min.js"></script>
+    <title>Bootstrap 起步</title>
+</head>
+<body>
+<!--1.头部-->
+<nav id="nav" class="nav navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+    </div>
+</nav>
+<!--2.图-->
+<div id="menu-img" class="container">
+    <img src="images/agency.jpg" class="img-responsive" alt=""/>
+</div>
+
+<!-- 3.下：图-->
+<div id="menu-details">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-4 col-xs-6 menu-list">
+                <a href="#">
+                    <img src="images/thumb1.jpg" class="img-responsive" alt=""/>
+                    <p class="text-center">鸡蛋汁煎鲤鱼</p>
+                    <div class="mask">
+                        <div class="add text-center">+</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 menu-list">
+                <a href="#">
+                    <img src="images/thumb2.jpg" class="img-responsive" alt=""/>
+                    <p class="text-center">鸡蛋汁煎鲤鱼</p>
+                    <div class="mask">
+                        <div class="add text-center">+</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 menu-list">
+                <a href="#">
+                    <img src="images/thumb3.jpg" class="img-responsive" alt=""/>
+                    <p class="text-center">鸡蛋汁煎鲤鱼</p>
+                    <div class="mask">
+                        <div class="add text-center">+</div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-3 col-sm-4 col-xs-6 menu-list">
+                <a href="#">
+                    <img src="images/thumb4.jpg" class="img-responsive" alt=""/>
+                    <p class="text-center">鸡蛋汁煎鲤鱼</p>
+                    <div class="mask">
+                        <div class="add text-center">+</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--4、底部-->
+<footer id="foot" class="container"></footer>
+
+
+
+
+
+
+
+<!--6、引入俩个行为依赖文件-->
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/index.js"></script>
+<script src="js/agencyBrand.js"></script>
+<!--7、引入 测试文件：注意，正真上线时该代码铲除-->
+<script src="js/bootlint.js"></script>
+<script>
+    bootlint.showLintReportForCurrentDocument([]);
+</script>
+</body>
+</html>
